@@ -1,0 +1,72 @@
+html {
+    background-color:yellow;
+}
+h1 {
+    color:blue;
+    font-size: 28px;
+    margin-bottom: 36px;
+    }
+h2 {
+    font-size: 20px;
+    margin-bottom: 28px;
+    }
+h3 {
+    font-size: 18px;
+    margin-bottom: 26px;
+    }
+body {
+    width: 650px;
+    background-color:white;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+    border: 8px double blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+.sorkin-image {
+    float: left;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    }
+p {
+    font-size: 16px;
+    line-height: 1.5em;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    }
+blockquote {
+    font-size: 16px;
+    line-height: 1.5em;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    }
+ul {
+    margin-bottom: 48px;
+    }
+li {
+    margin-bottom: 4px;
+    line-height: 1.5em;
+    }
+.cite-align-right cite {
+    color:blue;
+    font-style: normal;
+    }
+.cite-align-right {
+    text-align: right;
+    }
+footer {
+    border-top: 5px solid blue;
+    margin-top: 48px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    }
+footer p {
+    font-weight: bold;
+    text-align: center;
+    }
+}
