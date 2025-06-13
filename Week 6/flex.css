@@ -1,0 +1,28 @@
+section#flexbox {
+    background-color: green;
+    width: 900px;
+    height: 700px;
+    border: 2px solid blue;
+    margin: 400px 30px;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    /* flex-wrap: wrap-reverse; */
+    flex-flow: column-reverse wrap;
+    justify-content: center;
+    /* justify-content: left; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    align-items: center;
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    align-content: space-between;
+    /* align-content: space-around; */
+    /* align-content: flex-end; */
+    /* align-content: stretch; */
+}
+
+section#flexbox > div {
+    background-color: lightgrey;
+
+}
